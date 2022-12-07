@@ -144,18 +144,19 @@ public class Vista extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 255, 255));
-        jPanel1.setForeground(new java.awt.Color(255, 0, 0));
 
         jLabel1.setFont(new java.awt.Font("Impact", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("EVALUACION UNIDAD  2");
+        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel2.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("ALUMNO:FRAN FRANKLIN CALIZAYA");
         jLabel2.setToolTipText("");
+        jLabel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -163,12 +164,13 @@ public class Vista extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(162, 162, 162))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(216, 216, 216)
-                .addComponent(jLabel2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(162, 162, 162))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(254, 254, 254))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -186,12 +188,14 @@ public class Vista extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("JUGADOR 1 :");
+        jLabel6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel6.setOpaque(true);
 
         jLabel7.setBackground(new java.awt.Color(51, 255, 204));
         jLabel7.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("JUGADOR 2 :");
+        jLabel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel7.setOpaque(true);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 102));
@@ -200,59 +204,69 @@ public class Vista extends javax.swing.JFrame {
         Casilla1.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla1.setForeground(new java.awt.Color(0, 0, 0));
         Casilla1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla1.setOpaque(true);
 
         Casilla3.setBackground(new java.awt.Color(0, 102, 255));
         Casilla3.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla3.setForeground(new java.awt.Color(0, 0, 0));
         Casilla3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla3.setOpaque(true);
 
         Casilla4.setBackground(new java.awt.Color(0, 102, 255));
         Casilla4.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla4.setForeground(new java.awt.Color(0, 0, 0));
         Casilla4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla4.setOpaque(true);
 
         Casilla7.setBackground(new java.awt.Color(0, 102, 255));
         Casilla7.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla7.setForeground(new java.awt.Color(0, 0, 0));
         Casilla7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla7.setOpaque(true);
 
         Casilla2.setBackground(new java.awt.Color(0, 102, 255));
         Casilla2.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla2.setForeground(new java.awt.Color(0, 0, 0));
         Casilla2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla2.setOpaque(true);
 
         Casilla9.setBackground(new java.awt.Color(0, 102, 255));
         Casilla9.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla9.setForeground(new java.awt.Color(0, 0, 0));
         Casilla9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla9.setOpaque(true);
 
         Casilla6.setBackground(new java.awt.Color(0, 102, 255));
         Casilla6.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla6.setForeground(new java.awt.Color(0, 0, 0));
         Casilla6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla6.setOpaque(true);
 
         Casilla8.setBackground(new java.awt.Color(0, 102, 255));
         Casilla8.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla8.setForeground(new java.awt.Color(0, 0, 0));
         Casilla8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla8.setOpaque(true);
 
         Casilla5.setBackground(new java.awt.Color(0, 102, 255));
         Casilla5.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla5.setForeground(new java.awt.Color(0, 0, 0));
         Casilla5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Casilla5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Casilla5.setOpaque(true);
 
         jLabel5.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("TURNO :");
+        jLabel5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         lblNombre.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblNombre.setForeground(new java.awt.Color(0, 0, 0));
@@ -262,33 +276,38 @@ public class Vista extends javax.swing.JFrame {
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(102, 102, 102)
+                                .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel5))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(Casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Casilla8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Casilla9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addComponent(Casilla9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
                                 .addComponent(Casilla4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
                                 .addComponent(Casilla1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Casilla2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addGap(59, 59, 59)
-                        .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(Casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -308,25 +327,27 @@ public class Vista extends javax.swing.JFrame {
                     .addComponent(Casilla9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Casilla8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel5)
+                    .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         victoriasJ1.setBackground(new java.awt.Color(51, 255, 204));
-        victoriasJ1.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        victoriasJ1.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ1.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ1.setText("0");
         victoriasJ1.setToolTipText("");
+        victoriasJ1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         victoriasJ1.setOpaque(true);
 
         victoriasJ2.setBackground(new java.awt.Color(51, 255, 204));
-        victoriasJ2.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        victoriasJ2.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ2.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ2.setText("0");
+        victoriasJ2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         victoriasJ2.setOpaque(true);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -359,15 +380,15 @@ public class Vista extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(2, 2, 2)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(victoriasJ2, javax.swing.GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
-                    .addComponent(victoriasJ1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(victoriasJ1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(victoriasJ2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(98, 98, 98)
                 .addComponent(txtIdResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -427,10 +448,12 @@ public class Vista extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NOMBRE JUGADOR 1:");
+        jLabel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel4.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("NOMBRE JUGADOR 2:");
+        jLabel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         btnIniciar.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         btnIniciar.setText("INICIAR");
@@ -451,6 +474,7 @@ public class Vista extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("SCORE");
+        jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
