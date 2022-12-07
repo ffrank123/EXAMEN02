@@ -143,7 +143,7 @@ public class Vista extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 102, 204));
 
         jLabel1.setFont(new java.awt.Font("Impact", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
@@ -182,16 +182,16 @@ public class Vista extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel2.setBackground(new java.awt.Color(102, 204, 255));
 
-        jLabel6.setBackground(new java.awt.Color(51, 255, 204));
+        jLabel6.setBackground(new java.awt.Color(0, 51, 255));
         jLabel6.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("JUGADOR 1 :");
         jLabel6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel6.setOpaque(true);
 
-        jLabel7.setBackground(new java.awt.Color(51, 255, 204));
+        jLabel7.setBackground(new java.awt.Color(255, 0, 0));
         jLabel7.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("JUGADOR 2 :");
@@ -333,7 +333,7 @@ public class Vista extends javax.swing.JFrame {
                     .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        victoriasJ1.setBackground(new java.awt.Color(51, 255, 204));
+        victoriasJ1.setBackground(new java.awt.Color(0, 51, 255));
         victoriasJ1.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ1.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -342,7 +342,7 @@ public class Vista extends javax.swing.JFrame {
         victoriasJ1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         victoriasJ1.setOpaque(true);
 
-        victoriasJ2.setBackground(new java.awt.Color(51, 255, 204));
+        victoriasJ2.setBackground(new java.awt.Color(255, 0, 0));
         victoriasJ2.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ2.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -396,7 +396,7 @@ public class Vista extends javax.swing.JFrame {
                 .addGap(38, 38, 38))
         );
 
-        jPanel3.setBackground(new java.awt.Color(153, 255, 204));
+        jPanel3.setBackground(new java.awt.Color(0, 153, 255));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 102));
 
@@ -445,15 +445,21 @@ public class Vista extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel3.setBackground(new java.awt.Color(0, 51, 255));
         jLabel3.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NOMBRE JUGADOR 1:");
         jLabel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        jLabel4.setBackground(new java.awt.Color(255, 0, 51));
         jLabel4.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("NOMBRE JUGADOR 2:");
         jLabel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        txtJugador1.setBackground(new java.awt.Color(0, 51, 255));
+
+        txtJugador2.setBackground(new java.awt.Color(255, 0, 51));
 
         btnIniciar.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         btnIniciar.setText("INICIAR");
