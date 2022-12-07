@@ -13,7 +13,7 @@ import pe.edu.upeu.evaluacion2.modelo.ResultadoTO;
 
 /**
  *
- * @author USUARIO
+ * @author frans
  */
 public class ModelGame {
 
