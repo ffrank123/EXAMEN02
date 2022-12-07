@@ -461,7 +461,7 @@ public class Vista extends javax.swing.JFrame {
 
         txtJugador1.setBackground(new java.awt.Color(0, 51, 255));
 
-        txtJugador2.setBackground(new java.awt.Color(255, 0, 51));
+        txtJugador2.setBackground(new java.awt.Color(204, 0, 0));
 
         btnIniciar.setBackground(new java.awt.Color(0, 204, 0));
         btnIniciar.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
